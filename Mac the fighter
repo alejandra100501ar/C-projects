@@ -1,0 +1,58 @@
+#include <iostream>
+
+int main() {
+
+double weight;
+int x;
+
+std::cout << "What is your earth weight?(pounds please): ";
+std::cin >> weight;
+
+std::cout << "\n This are the planets I know about: \n 1. Mercury \n 2.Venus \n 3.Mars \n 4.Jupiter \n 5.Saturn \n 6.Uranus \n 7.Neptune\n ";
+
+std::cout << "Enter the number of your destination: ";
+std::cin >> x;
+
+double fweight;
+
+if (x==1) {
+fweight = weight * 0.38;
+std::cout << "Your weight in Mercury is: " << fweight << ".\n";
+}
+else if (x==2){
+fweight = weight * 0.91;
+std::cout << "Your weight in Venus is: " << fweight << ".\n"; 
+}
+else if (x==3){
+fweight = weight * 0.38;
+std::cout << "Your weight in Mars is: " << fweight << ".\n"; 
+}
+else if (x==4){
+fweight = weight * 2.34;
+std::cout << "Your weight in Jupiter is: " << fweight << ".\n"; 
+}
+else if (x==5){
+fweight = weight * 1.06;
+std::cout << "Your weight in Saturn is: " << fweight << ".\n"; 
+}
+else if (x==6){
+fweight = weight * 0.92;
+std::cout << "Your weight in Uranus is: " << fweight << ".\n"; 
+}
+else {
+fweight = weight * 1.19;
+std::cout << "Your weight in Neptune is: " << fweight << ".\n"; 
+}
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
